@@ -25,6 +25,7 @@
 ## Purposes
 1. Display a chart of approximate wave height (swell height * period * 0.1) for the last 24 hours from [NDBC Buoys](https://www.ndbc.noaa.gov/)
   ![Screenshot](https://raw.githubusercontent.com/swrobel/meta-surf-forecast/main/screenshot-buoy.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fmeta-surf-forecast.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fmeta-surf-forecast?ref=badge_shield)
 1. Query the [Surfline](https://www.surfline.com/) & [Spitcast](https://www.spitcast.com/) APIs to display an aggregated surf forecast.
   ![Screenshot](https://raw.githubusercontent.com/swrobel/meta-surf-forecast/main/screenshot-forecast.png)
 
@@ -281,3 +282,7 @@ It took me a long time to land on a solution here, but I've finally settled on s
 * [x] Stop manually seeding the db and figure out a way to pull all spots from each data source and automatically associate them to a canonical spot record (probably using geocoding)
 * [x] Dark Theme
 * [x] Remove asset pipeline & process CSS w/ webpacker
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fmeta-surf-forecast.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fmeta-surf-forecast?ref=badge_large)
